@@ -1,0 +1,94 @@
+.image-ronde{
+    width : 200px; height : 200px;
+    border: solid ;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+    border-color: rgb(0, 0, 0);
+    border-width: thick ;
+}
+
+h1{
+    text-align: center;
+    font-family: oswald;
+    font-weight: bold;
+}
+
+
+.pp{
+    line-height:5px;
+}
+
+.Gauche{
+    float: left;
+    font-weight: bold;
+}
+
+.Droite{
+    margin-left: 120px;
+}
+ 
+.Droite_2{
+    margin-left: 120px;
+    margin-top: 6px;
+} 
+.bouton{
+    text-align: center;
+}
+
+.bouton a {
+    text-decoration: none;
+    color: #fff;
+}
+ 
+ 
+h2{
+    font-size: 28px;
+    color: rgb(204, 43, 43);
+    border-bottom: 3px solid;
+    font-style: italic ;
+    font-weight: bold;
+}
+ 
+ 
+p, li{
+    font-family: oswald;
+    font-size: 17px;
+}
+
+
+p a {
+    text-decoration: none;
+}
+
+
+.progress{
+    margin-bottom: 24px;
+}
+
+
+span{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 338px){
+    .test_responsive{
+        display: block;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        line-height: 15px;
+    }
+    .test_responsive2{
+        display: block;
+        align-items: center;
+        padding-bottom: 20px;
+        margin-top: 28px;
+        line-height: 20px;
+    }
+    .text_responsive{
+        display: block;
+        line-height: 20px;
+    }
+}
+
