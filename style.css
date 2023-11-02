@@ -72,14 +72,14 @@ span{
 }
 
 @media only screen and (max-width: 338px){
-    .test_responsive{
+    .responsive{
         display: block;
         align-items: center;
         padding-bottom: 20px;
         margin-top: 40px;
         line-height: 15px;
     }
-    .test_responsive2{
+    .responsive2{
         display: block;
         align-items: center;
         padding-bottom: 20px;
